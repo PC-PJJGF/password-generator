@@ -7,10 +7,7 @@ PASSWORDREGEX = r"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&
 def validate_passwd(passwd):
     return re.match(PASSWORDREGEX, passwd) is not None
 
-def generate_passwd(passwd_length):
-    if passwd_length < 8:
-        raise ValueError("La longitud de la contraseña debe ser al menos 8 caracteres.")
-    
+def generate_passwd(passwd_length):    
     lowerCase = string.ascii_lowercase
     upperCase = string.ascii_uppercase
     digits = string.digits
