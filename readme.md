@@ -30,7 +30,7 @@ Este proyecto de **Password Generator** permite generar contraseñas seguras de 
 1. Clona este repositorio
 
 ```bash
-    git clone https://github.com/tu-usuario/password-generator.git
+    git clone https://github.com/PC-PJJGF/password-generator.git
     cd password-generator
 ```
 
